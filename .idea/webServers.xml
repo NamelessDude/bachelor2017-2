@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="1f5ff647-d100-4787-9eaa-3a982244af0f" name="bachelor2017-2" url="http://www.toto.com">
+        <fileTransfer host="www.toto.com" port="22" privateKey="U:\### Dossier Bachelor ###\PUTTYGEN\privateKey.ppk" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
