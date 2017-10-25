@@ -96,13 +96,42 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.titre{
+    display: flex;
+    justify-content: center;
+    font-family: 'Slabo 27px', serif;
+}
 
+.soustitre{
+    display: flex;
+    justify-content: center;
+    font-family: 'Slabo 27px', serif;
+}
 
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
 
+.lettre{
+    border-bottom: 1px solid black;
+    font-family: 'Slabo 27px', serif;
+}
 
+.containerButton{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1vh;
+}
+.voyelle{
 
+}
 
+.consonne{
 
+}
 
 
 
