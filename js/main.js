@@ -1,11 +1,11 @@
 var i = 1;
 
-(function makeVoyelle() {
+/*(function makeVoyelle() {
     $("#voyelle").click(function(){
         var char = "";
         var possible = "AEIOUY";
         char += possible.charAt(Math.floor(Math.random() * possible.length));
-        $(".lettre"+i).html(char);
+        $(".lettre"+i).html(char).toggle();
         i++;
     })
 })();
@@ -16,15 +16,15 @@ var i = 1;
         var char = "";
         var possible = "BCDFGHJKLMNPQRSTVWXZ";
         char += possible.charAt(Math.floor(Math.random() * possible.length));
-        $(".lettre"+i).html(char);
+        $(".lettre"+i).html(char).toggle();
         i++;
     })
-})();
+})();*/
 
 (function () {
     $("#voyelle").click(function(){
         $.get('/lettre.php?type=voyelle', function(e){
-            $('#mondiv').html(e);
+            $(".lettre"+i).html(e).toggle();
         })
     })
 })();
@@ -32,7 +32,7 @@ var i = 1;
 (function(){
     $("#consonne").click(function(){
         $.get('/lettre.php?type=consonne', function(e){
-            $('#mondiv').html(e);
+            $(".lettre"+i).html(e).toggle();
         })
     })
-})
+})();

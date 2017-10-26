@@ -112,11 +112,12 @@ textarea {
 .container{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: baseline;
 }
 
 .lettre{
+    display: none;
     border-bottom: 1px solid black;
     font-family: 'Slabo 27px', serif;
 }
