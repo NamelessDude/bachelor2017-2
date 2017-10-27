@@ -96,11 +96,14 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+
 .titre{
     display: flex;
     justify-content: center;
     font-family: 'Slabo 27px', serif;
 }
+
 
 .soustitre{
     display: flex;
@@ -118,7 +121,6 @@ textarea {
 
 .lettre{
     display: none;
-    border-bottom: 1px solid black;
     font-family: 'Slabo 27px', serif;
 }
 
@@ -128,14 +130,22 @@ textarea {
     padding-top: 5vh;
 }
 
-.voyelle{
-
+.rep{
+    display: none;
+    font-family: 'Slabo 27px', serif;
 }
 
-.consonne{
-
+.containerRep{
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
 }
 
+.containerReset{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5vh;
+}
 
 #mondiv{
     background: #e6ffb2;
